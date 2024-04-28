@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+body{
+    background-color: #8a7030;
+}
+
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: #d6bf83;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 10px 1px  rgba(0, 0, 0, 0.2);
+}
+.photo{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: orange;
+    background-position: center;
+    background-size: coverS;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+h3{
+    width: 77%;
+    text-align: left;
+    font-size: 27px;
+    margin: 5px;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    margin: 25px;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 37px;
+    padding: 37px;
+}
+p{
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+}
+.photo1{
+    background-image: url(../img2/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo2{
+    background-image: url(../img2/2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo3{
+    background-image: url(../img2/3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo4{
+    background-image: url(../img2/4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo5{
+    background-image: url(../img2/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo6{
+    background-image: url(../img2/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.photo:hover {
+    transform: rotate(3deg) scale(1.07);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
